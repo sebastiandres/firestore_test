@@ -1,6 +1,6 @@
 import streamlit as st
 from google.cloud import firestore
-
+from google.oauth2 import service_account
 
 try:
     # Authenticate to Firestore with the JSON account key.
